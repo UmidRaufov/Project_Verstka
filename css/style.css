@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    color: #202020;
+}
+
+.header {
+    background-color: rgba(241, 241, 241, 1);
+    padding: 22px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    color: #202020;
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: 11px;
+    margin-right: 11px;
+    font-weight: 400;
+}
+
+.login {
+    color: inherit;
+    font-size: 14px;
+    text-decoration: none;
+    fotnt-weight: 400;
+}
+
+
+/* Hero*/
+.hero {
+    padding-top: 61px;
+    padding-bottom: 71px;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    max-width: 1140px;
+    margin: auto;
+}
+
+.hero-image {
+    margin-right: 123px;
+}
+
+.author {
+    display: block;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+
+.title {
+    font-size: 54px;
+    margin-top: 0;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.subtitle {
+    line-height: 29px;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 48px;
+    display: block;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 49px;
+}
+
+.info-text {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    flex-basis: 45%;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.pricetag {
+    font-size: 40px;
+    margin-right: 64px;
+}
+
+.favourites {
+    font-size: 16px;
+    text-decoration: none;
+    color: #020f5f;
+    font-weight: 700;
+}
+
+.button {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 23px 58px;
+    border: 2px solid rgba(248, 156, 2, 1);
+}
+
+.button-primary {
+    background-color: rgba(248, 156, 2, 1);
+    color: #fff;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.button-outline {
+    text-decoration: none;
+    color: rgba(248, 156, 2, 1);
+    border-radius: 5px;
+}
