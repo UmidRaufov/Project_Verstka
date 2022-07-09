@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"/>
     <title>Путь фрилансера</title>
-    <link rel="shortcut icon" href="img/book_icon.png" type="image/png">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/book_icon.png" type="image/png"/>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
 <!--Header-->
@@ -26,9 +26,14 @@
 <!--Header-->
 
 <!--Hero-->
-<div class=" ">
+<div class="hero">
     <div class="hero-container">
-        <img src="img/book.png" alt="book" class="hero-image">
+        <div class="image-block">
+            <img src="img/book.png" alt="book" class="hero-image"/>
+            <span class="sale-label">SALE 30%</span>
+        </div>
+        <!-- /.image-block -->
+
         <div class="hero-txt">
             <span class="author">Игорь Сергеев</span>
             <h1 class="title">Путь фрилансера</h1>
@@ -42,7 +47,11 @@
             <!-- /.info-->
             <div class="price">
                 <span class="pricetag">490 ₽ </span>
-                <a href="#" class="favourites">Добавить в избранное </a>
+                <a href="#" class="favourites">
+                    <img class="like" src="img/fovurite.svg" alt="img">
+                    <span class="price-text">Добавить в избранное</span>
+                    <!-- /.price-text -->
+                </a>
             </div>
             <!-- /.price-->
             <div class="buttons">
@@ -58,15 +67,102 @@
 <!-- /.hero -->
 
 <!--About-->
-<div class="about"></div>
+<div class="about">
+    <div class="about-container">
+        <div class="about-txt">
+            <h2 class="section-title">О книге</h2>
+            <p class="about-text">
+                Ключ от свободы скрыт в книжном магазине. Данное произведение —
+                золотой ключ от двери с надписью «Фриланс».
+            </p>
+            <p class="about-text">
+                Это история сильной личности, выковавшей себя из камня. Это глубоко,
+                честно и про каждого из нас. С первых страниц автор затрагивает
+                струны души тех самых людей, которые захотели жить по-другому. И
+                самое уникальное то, что в книге раскрыт подробный план к действиям.
+                Читателю лишь хочется пожелать пристегнуться, прежде чем
+                перелистнуть страницу.
+            </p>
+        </div>
+        <!-- /.about-book -->
+        <div class="about-author">
+            <img src="img/author.png" alt="author" class="author-avatar"/>
+            <div class="author-info">
+                <h3 class="author-name">Игорь Сергеев</h3>
+                <a href="https://tapid.pro/igorsergeev" class="author-link"
+                >https://tapid.pro/igorsergeev</a
+                >
+            </div>
+            <!-- /.author-info -->
+            <p class="author-text">
+                Он был популяризирован в 1960-х годах с выпуском листов Letraset,
+                содержащих отрывки Lorem Ipsum, а совсем недавно - с программным
+            </p>
+        </div>
+        <!-- /.about-author -->
+    </div>
+    <!-- /.about-container -->
+</div>
 <!-- /.about -->
 
-<!--Reader-->
-<div class="reader"></div>
+<!--Readers-->
+<div class="readers">
+    <div class="reader-container">
+        <h2 class="reader-title">Читатели</h2>
+        <div class="readers-block">
+            <img src="img/readers/reader_1.jpg" alt="" class="reader"/>
+            <img src="img/readers/reader_2.jpg" alt="" class="reader"/>
+            <img src="img/readers/reader_3.jpg" alt="" class="reader"/>
+            <img src="img/readers/reader_4.jpg" alt="" class="reader"/>
+            <img src="img/readers/reader_5.jpg" alt="" class="reader"/>
+            <img src="img/readers/reader_6.jpg" alt="" class="reader"/>
+            <img src="img/readers/reader_7.jpg" alt="" class="reader"/>
+            <img src="img/readers/reader_8.jpg" alt="" class="reader"/>
+            <img src="img/readers/reader_9.jpg" alt="" class="reader"/>
+            <img src="img/readers/reader_10.jpg" alt="" class="reader"/>
+            <img src="img/readers/reader_11.jpg" alt="" class="reader"/>
+            <img src="img/readers/reader_12.jpg" alt="" class="reader"/>
+        </div>
+    </div>
+</div>
 <!-- /.reader -->
 
 <!--Footer-->
-<div class="footer"></div>
+<div class="footer">
+    <div class="footer-container">
+        <div class="requisites">
+            <h2 class="footer-title">Реквизит</h2>
+            <ul class="footer-list">
+                <li class="list-item">Игорь Сергеев Сергеевич</li>
+                <li class="list-item">ИНН 123456897451</li>
+                <li class="list-item">ОГРНИП 2135645666266</li>
+            </ul>
+        </div>
+        <!-- /.requisites -->
+        <div class="information">
+            <h3 class="footer-title">Информация</h3>
+            <ul class="footer-list">
+                <li class="list-item"><a href="#" class="footer-link">Политика конфиденциальности</a></li>
+                <li class="list-item"><a href="#" class="footer-link">Правила обработки данных</a></li>
+                <li class="list-item"><a href="#" class="footer-link">Доровор-оферта</a></li>
+            </ul>
+        </div>
+        <!-- /.information --> 
+        <div class="contact">
+            <h3 class="footer-title">Контакты</h3>
+            <ul class="footer-list">
+                <li class="list-item"><a href="mailto:template-bookt@ya.ru" class="footer-link">template-book@ya.ru</a></li>
+                <li class="list-item"><a href="http://vk.me" class="footer-link">vk.me/igorser</a></li>
+                <li class="list-item"><a href="http://t.me/igorser" class="footer-link">t.me/igorser</a></li>
+            </ul>
+        </div>
+        <!-- /.contact -->
+    </div>
+</div>
 <!-- /.footer -->
+
+<a href="#" class="arrow">
+    <img src="img/return.svg" alt="icon">
+</a>
 </body>
 </html>
